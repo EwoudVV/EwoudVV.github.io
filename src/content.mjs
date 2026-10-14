@@ -3,11 +3,11 @@ export const site = {
   url: "https://ewoudvv.github.io",
   github: "https://github.com/EwoudVV",
   updated: "October 14, 2026",
-  // TODO: Add the email address Ewoud wants to make public before sending applications.
   contactEmail: null,
   description:
     "Electronics and PCB projects by Ewoud, a high school student in Massachusetts. Custom laptop hardware, microcontroller boards, battery circuits, and motor control.",
 };
+// TODO: Set contactEmail above when a public email address is chosen.
 
 export const projects = [
   {
@@ -15,9 +15,9 @@ export const projects = [
     number: "01",
     name: "Ducktop2",
     category: "Custom laptop",
-    subtitle: "A 16-inch laptop, built around custom electronics.",
+    subtitle: "A custom 16-inch laptop with an eight-layer motherboard.",
     summary:
-      "My main project: a 16-inch laptop with an eight-layer motherboard split across a center board and two I/O boards.",
+      "A 16-inch laptop I'm designing around the LattePanda Mu Ultra, with a custom eight-layer motherboard and separate I/O boards.",
     status: "Routing in progress",
     image: "ducktop-open",
     alt: "CAD view of the open Ducktop2 laptop with its display, keyboard area, and trackpad",
@@ -38,31 +38,31 @@ export const projects = [
       ["Status", "In progress"],
     ],
     intro:
-      "I wanted the exposed hardware and flexibility of a cyberdeck in a laptop I could carry around. Ducktop2 replaces the external cables of my earlier build with a custom carrier, direct eDP display connection, and dedicated boards for power, ports, and controls.",
+      "I wanted to build a laptop with the exposed hardware and flexibility of a cyberdeck. My earlier build had HDMI and USB-C cables running around the outside. For Ducktop2, I'm designing custom boards for the ports, power, and controls, with a direct eDP connection to the display.",
     sections: [
       [
-        "Making the boards work together",
-        "The design is built around the LattePanda Mu Ultra, with a 226V module planned first. The center board carries the compute module, embedded controller, charger, and maker microcontroller. Separate left and right boards carry the ports. Keeping those connections serviceable while fitting the keyboard, battery, and cooler into the case is a large part of the work.",
+        "Board layout",
+        "The laptop uses a LattePanda Mu Ultra, starting with the 226V module. The center board holds the compute module, embedded controller, charger, and maker microcontroller. The ports are on separate left and right boards. I'm working out how to fit everything around the keyboard, battery, and cooler while keeping the connections accessible.",
       ],
       [
         "High-speed routing",
-        "The carrier includes PCIe for M.2 NVMe, a separate Wi-Fi/Bluetooth socket, and USB, HDMI, and Ethernet connections. I am working through differential-pair routing, reference planes, connector placement, and the changes needed for the Mu Ultra pin map. Existing PCIe routes are saved; USB, HDMI, Ethernet, and much of the remaining main-board routing still need work.",
+        "The carrier has PCIe for M.2 NVMe, a separate Wi-Fi/Bluetooth socket, and USB, HDMI, and Ethernet connections. I'm routing the differential pairs and checking their reference planes and connector placement. The PCIe routes are saved, but the Mu Ultra pin-map changes and much of the main-board routing still need work.",
       ],
       [
-        "Power and battery integration",
-        "The current design uses an ISL9241 buck-boost charger and a separate three-cell BMS with a BQ76922 monitor. USB-C input, system load, and battery charging share a power budget. The revised circuit targets 100 W input, but that is a design target awaiting board, cable, thermal, and source-transition tests.",
+        "Power and charging",
+        "An ISL9241 charger sits on the center board, with a separate BQ76922 board monitoring the three-cell battery. The laptop and battery charging have to share the available input power. I'm aiming for 100 W over USB-C, but I still need to test the boards, cables, temperatures, and switching between power sources.",
       ],
       [
-        "Mechanical work",
-        "The case CAD brings the display, keyboard, trackpad, boards, battery, and cooling hardware together. Recent work covers the cooler supports, air path, cable clearances, and access to the display and keyboard connections. The saved geometry still needs physical fit and cooling checks.",
+        "Fitting the case",
+        "The case CAD includes the display, keyboard, trackpad, boards, battery, and cooling hardware. I've been working on the cooler supports, airflow, cable clearances, and access to the display and keyboard connectors. The fit and cooling still need to be checked with real parts.",
       ],
     ],
     statusDetail:
-      "The main boards are not fully routed. The complete laptop is not ready for fabrication or powered integration. The BMS has a routed layout, but assembled-board protection tests are still pending.",
+      "I'm still routing the main boards. The full laptop is not ready for fabrication or power-up. The BMS is routed, but its protection circuits still need bench testing.",
     next: [
       "Finish main-board routing and review the changed high-speed connections.",
       "Check the case, cables, and cooler against real parts.",
-      "Fabricate and bring up the boards, then qualify charging, protection, and thermal behavior.",
+      "Make the boards and test the power, charging, protection, and cooling.",
     ],
     gallery: [
       [
@@ -87,9 +87,9 @@ export const projects = [
     number: "02",
     name: "STM32 development board",
     category: "Microcontroller hardware",
-    subtitle: "A small board for learning, debugging, and connecting hardware.",
+    subtitle: "A compact STM32 board with USB-C, microSD, and SWD.",
     summary:
-      "A 24 × 44 mm, four-layer STM32F411 board with USB-C, microSD, and accessible SWD debugging.",
+      "A 24 × 44 mm STM32F411 board with USB-C, microSD, and SWD. Four layers, with components on both sides.",
     status: "Design complete · awaiting fabrication",
     image: "devboard",
     alt: "KiCad 3D render of the compact green STM32 board with USB-C, buttons, and two rows of header pads",
@@ -103,23 +103,23 @@ export const projects = [
       ["GPIO", "22 pins"],
     ],
     intro:
-      "I designed this board to be small enough for breadboard use while keeping the connections I would want during development: USB-C, a microSD socket, GPIO, and a direct SWD connection.",
+      "I wanted a small, breadboard-compatible STM32 board with the connections I'd actually use: USB-C, a microSD socket, GPIO, and SWD for programming and debugging.",
     sections: [
       [
-        "Fitting the hardware",
+        "Layout",
         "The four-layer layout uses components on both sides. It brings out 22 GPIO pins, including nine analog inputs, with additional header pins for power, boot, reset, and debugging. The MCU is an STM32F411CEU6.",
       ],
       [
-        "Connections that are easy to debug",
+        "USB, microSD, and debugging",
         "USB-C carries the MCU’s USB connection, with USB protection on the board. The microSD socket connects over SPI2. SWDIO, SWCLK, reset, ground, and the 3.3 V reference are available on the header so the board can be programmed without relying on a working USB application.",
       ],
       [
-        "Preparing for the first boards",
-        "The repository includes Gerbers, a bill of materials, placement files, and a documented pinout. Starter firmware builds for the board and covers the LED, user button, and USB serial. Physical USB operation and SD-card use have not been verified on an assembled board.",
+        "Manufacturing files and firmware",
+        "I've prepared the Gerbers, bill of materials, placement files, and pinout. The starter firmware builds and includes the LED, user button, and USB serial. I haven't tested it on an assembled board yet, and the microSD connection still needs testing too.",
       ],
     ],
     statusDetail:
-      "The PCB design is complete and manufacturing files are prepared. The project is waiting on funding for assembled boards. There are no confirmed physical bring-up results yet.",
+      "The PCB design and manufacturing files are done. I'm waiting on funding to order assembled boards, so I haven't done the physical bring-up yet.",
     next: [
       "Order and inspect the first assembled boards.",
       "Check the supply rail and program the MCU over SWD.",
@@ -143,14 +143,14 @@ export const projects = [
     number: "03",
     name: "Battery management & charging",
     category: "Ducktop2 subsystem",
-    subtitle: "Monitoring and protecting a three-cell laptop battery.",
+    subtitle: "Ducktop2's three-cell battery board and charging circuit.",
     summary:
-      "A routed four-layer BMS for Ducktop2, with cell monitoring, current sensing, and independent protection circuitry.",
+      "The three-cell battery board for Ducktop2, with cell monitoring, current sensing, and separate charge and discharge protection.",
     status: "BMS routed · bench tests pending",
     image: "bms",
     alt: "Top-side CAD render of the rectangular green battery management board with monitoring and protection circuitry",
     caption:
-      "Current BMS board render from the manufacturing directory. Hardware qualification is pending.",
+      "BMS board render. The layout is routed; bench testing is still pending.",
     repo: "https://github.com/EwoudVV/ducktop2",
     tags: ["BQ76922", "ISL9241", "3S battery", "Current sensing", "Protection"],
     facts: [
@@ -160,7 +160,7 @@ export const projects = [
       ["Charger", "ISL9241"],
     ],
     intro:
-      "The laptop’s battery is a separate engineering problem from its compute board. I split cell monitoring and protection onto a dedicated BMS, while the center board handles charging and the system power path.",
+      "The battery monitor and protection circuits are on their own board. The center board handles charging and system power. That keeps the cell connections and protection MOSFETs together on the BMS.",
     sections: [
       [
         "Cell monitoring and disconnects",
@@ -171,20 +171,20 @@ export const projects = [
         "A four-terminal 2 mΩ shunt provides separate force and sense connections. INA381 circuits provide independent charge and discharge current guards. The board targets 8 A discharge and up to 3 A charging; these are targets, not measured current ratings.",
       ],
       [
-        "Separating charging from protection",
+        "Charging",
         "An ISL9241 charger on the center board supplies the pack and system power path. The BMS handles individual cell measurements and disconnects. Cell balancing is disabled in the initial prototype profile while the monitoring, temperature, and charging behavior are checked.",
       ],
       [
-        "Layout checks and hardware checks",
-        "The repository records a routed BMS with zero unconnected items and no physical DRC findings. Those checks do not establish current capacity, protection performance, or cell suitability. The first assembly leaves the drive-release links out for programming and bench tests.",
+        "Checks before power-up",
+        "The BMS is routed, with no unconnected items or physical DRC findings. I still need to measure its voltage drop and temperature, test the protection circuits, and check the cells. The first assembly leaves the drive-release links out so I can program and test it before enabling the main power path.",
       ],
     ],
     statusDetail:
-      "The BMS layout is routed. Its protection, current capacity, temperature response, and charging behavior still need assembled-hardware tests. The laptop’s revised charger circuit is saved, with main-board placement and routing still in progress.",
+      "The BMS is routed but still needs bench tests. I haven't verified its current capacity, fault response, or charging behavior on hardware. The charger circuit is saved on the center board, which is still being placed and routed.",
     next: [
       "Assemble the initial board in its disabled configuration.",
       "Calibrate current and cell measurements, then test faults and recovery.",
-      "Qualify the cells, wiring, thermal behavior, and charger integration.",
+      "Test the cells, wiring, temperature rise, and connection to the charger.",
     ],
     gallery: [],
     sources: [
@@ -198,9 +198,9 @@ export const projects = [
     number: "04",
     name: "BLDC motor controller",
     category: "Power electronics",
-    subtitle: "A reusable controller for brushless motors.",
+    subtitle: "A brushless motor controller built around an STM32G4.",
     summary:
-      "A four-layer STM32G4 motor-controller design with three-phase gate drive, phase-current sensing, and hardware protection.",
+      "An STM32G4 controller for brushless motors, with a three-phase power stage, current sensing, and hardware protection.",
     status: "PCB routed · not powered yet",
     image: "esc",
     alt: "CAD render of the BLDC motor controller showing power capacitors, three-phase bridge components, MCU, and connectors",
@@ -221,11 +221,11 @@ export const projects = [
       ["Gate driver", "DRV8353S"],
     ],
     intro:
-      "I am building an open-source controller for BLDC and PMSM motors, similar in concept to a small VESC. The first test motor is a 26 V Groschopp gearmotor. My plan is to start with Hall-based control and work toward more advanced control once the hardware is checked.",
+      "I'm building a reusable, open-source controller for BLDC and PMSM motors, similar to a small VESC. The first test motor is a 26 V Groschopp gearmotor. I plan to get Hall-based control working first, then look at FOC once the hardware is tested.",
     sections: [
       [
         "Three-phase power stage",
-        "The circuit uses an STM32G474VET6 and a DRV8353S gate driver with six 60 V bridge MOSFETs. The board includes the gate-driving circuitry, power input, motor connections, and a brake chopper. Cooling and the final manufacturing stack still need qualification.",
+        "The circuit uses an STM32G474VET6 and a DRV8353S gate driver with six 60 V MOSFETs. It also has a brake chopper. Before ordering, I still need to confirm the PCB stack and cooling plan.",
       ],
       [
         "Current measurement and protection",
@@ -233,15 +233,15 @@ export const projects = [
       ],
       [
         "Feedback and debugging",
-        "Hall and encoder inputs provide connections for motor feedback. The hardware also includes SWD, USB-C, UART, and CAN FD. The starter firmware supports UART commands, input and ADC reporting, and gate-driver register reads under guarded conditions.",
+        "There are Hall and encoder inputs for motor feedback, plus SWD, USB-C, UART, and CAN FD connections. The starter firmware can report inputs and ADC readings over UART and read the gate driver's registers when the required checks pass.",
       ],
       [
-        "What the firmware does today",
-        "The starter firmware builds and has host-side tests recorded in the repository. It keeps the bridge and brake PWM outputs low. It has not been flashed to this board. Motor commutation, FOC, USB, and CAN firmware remain future work; there is no verified sensorless operation or successful motor run.",
+        "Firmware so far",
+        "The starter firmware builds and passes its host tests, but I haven't flashed it to this board. It keeps the bridge and brake PWM outputs low. Commutation, FOC, USB, and CAN code are still to come. I haven't run a motor with it or implemented sensorless control.",
       ],
     ],
     statusDetail:
-      "The PCB is fully routed and fabrication files are prepared. The repository records clean design checks. The board has not been built, powered, or tested, and the test motor’s sensor pinout still needs checking.",
+      "The PCB is fully routed and the fabrication files are prepared. KiCad's saved design checks are clean. I haven't built or powered the board yet, and I still need to check the test motor's sensor pinout.",
     next: [
       "Confirm the fabrication stack, impedance, component availability, and cooling plan.",
       "Assemble the board and verify supplies, current readings, protection, and gate signals.",

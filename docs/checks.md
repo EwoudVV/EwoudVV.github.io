@@ -1,9 +1,9 @@
 # checks
 
-Checked October 14, 2026, after the layout revision.
+Checked October 14, 2026, after restoring the original layout and revising the wording.
 
 - Production build succeeded on Node.
-- Static checks covered nine HTML files, 122 local links, 17 image uses, page titles, descriptions, canonical URLs, Open Graph metadata, and the resume PDF.
+- Static checks covered nine HTML files, 116 local links, 17 image uses, page titles, descriptions, canonical URLs, Open Graph metadata, and the resume PDF.
 - All 16 external links returned HTTP 200.
 - Chromium checks covered eight pages at 1440, 390, and 320 pixels wide. No horizontal overflow, broken images, font loading errors, or browser errors were found.
 - Sixteen axe accessibility audits, across desktop and mobile, found no WCAG 2 A/AA or 2.1 A/AA violations. These are automated checks, not a full accessibility certification.
