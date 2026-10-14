@@ -1,0 +1,53 @@
+{
+  "name": "Ewoud",
+  "heading": "Electronics & PCB design",
+  "location": "Massachusetts",
+  "github": "github.com/EwoudVV",
+  "website": "ewoudvv.github.io",
+  "contactEmail": "TODO: add an email address approved for public use",
+  "summary": "10th-grade student focused on electronics, PCB design, and hardware integration. Seeking a summer 2027 electronics engineering internship, with an interest in MIT Lincoln Laboratory’s Group 76 software and electronics work.",
+  "education": {
+    "school": "Lincoln-Sudbury Regional High School",
+    "detail": "Expected graduation: 2029 · Massachusetts"
+  },
+  "projects": [
+    {
+      "name": "Ducktop2 | Custom 16-inch laptop",
+      "status": "Main-board routing in progress",
+      "url": "https://github.com/EwoudVV/ducktop2",
+      "bullets": [
+        "Designing an eight-layer center motherboard and I/O boards around the LattePanda Mu Ultra, with PCIe NVMe, USB, HDMI, Ethernet, and a separate Wi-Fi/Bluetooth socket.",
+        "Working on differential-pair routing, power distribution, battery integration, and mechanical clearances. The complete laptop has not reached powered integration."
+      ]
+    },
+    {
+      "name": "STM32 development board",
+      "status": "Design complete; awaiting fabrication",
+      "url": "https://github.com/EwoudVV/devboard",
+      "bullets": [
+        "Designed a 24 × 44 mm, four-layer STM32F411 board with USB-C, SPI microSD, 22 GPIO pins, and SWD access.",
+        "Prepared schematics, layout, Gerbers, BOM, placement files, and a pinout. Starter firmware builds; assembled-hardware testing is pending."
+      ]
+    },
+    {
+      "name": "Battery management & charging | Ducktop2 subsystem",
+      "status": "BMS routed; bench tests pending",
+      "url": "https://github.com/EwoudVV/ducktop2/tree/main/bms",
+      "bullets": [
+        "Designed a four-layer, three-cell BMS using a BQ76922 monitor, high-side protection MOSFETs, a four-terminal current shunt, and independent current guards.",
+        "Integrating an ISL9241 charger on the center board. Current capacity, fault response, and charging behavior still need hardware qualification."
+      ]
+    },
+    {
+      "name": "BLDC motor controller",
+      "status": "PCB routed; not built or powered",
+      "url": "https://github.com/EwoudVV/bldc-esc",
+      "bullets": [
+        "Designed a four-layer STM32G474 controller with a DRV8353S gate driver, six-MOSFET inverter, phase-current sensing, and protection circuitry.",
+        "Prepared fabrication files and bring-up firmware. Hall-based control is planned for a 26 V Groschopp gearmotor; commutation and FOC are not implemented."
+      ]
+    }
+  ],
+  "skills": "KiCad · Schematic design · Multilayer PCB layout · Differential-pair routing · Component selection · Power electronics · Microcontroller hardware · Git/GitHub · Linux · Basic Python and C#",
+  "activities": "Hack Club member · Half Life hardware reviewer"
+}
