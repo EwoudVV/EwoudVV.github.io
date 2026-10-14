@@ -18,48 +18,55 @@ endobj
 4 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/EwoudVV)
->> /Border [ 0 0 0 ] /Rect [ 109.024 687.4 185.504 697 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (mailto:ewoud.vanvooren@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 110.1255 709.04 221.8767 719 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://ewoudvv.github.io)
->> /Border [ 0 0 0 ] /Rect [ 192.176 687.4 256.208 697 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://github.com/EwoudVV)
+>> /Border [ 0 0 0 ] /Rect [ 48 698.04 127.348 708 ] /Subtype /Link /Type /Annot
 >>
 endobj
 6 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/EwoudVV/ducktop2)
->> /Border [ 0 0 0 ] /Rect [ 49 557.7625 196.1561 569.7625 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://ewoudvv.github.io)
+>> /Border [ 0 0 0 ] /Rect [ 134.1208 698.04 200.554 708 ] /Subtype /Link /Type /Annot
 >>
 endobj
 7 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/EwoudVV/devboard)
->> /Border [ 0 0 0 ] /Rect [ 49 478.7625 164.7975 490.7625 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://github.com/EwoudVV/drawbot)
+>> /Border [ 0 0 0 ] /Rect [ 48 505.88 211.2576 517.4 ] /Subtype /Link /Type /Annot
 >>
 endobj
 8 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/EwoudVV/ducktop2/tree/main/bms)
->> /Border [ 0 0 0 ] /Rect [ 49 410.58 288.2026 421.5 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://github.com/EwoudVV/ducktop2)
+>> /Border [ 0 0 0 ] /Rect [ 48 434.48 274.7328 446 ] /Subtype /Link /Type /Annot
 >>
 endobj
 9 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/EwoudVV/bldc-esc)
->> /Border [ 0 0 0 ] /Rect [ 49 332.2625 147.0798 344.2625 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://github.com/EwoudVV/devboard)
+>> /Border [ 0 0 0 ] /Rect [ 48 363.08 296.0352 374.6 ] /Subtype /Link /Type /Annot
 >>
 endobj
 10 0 obj
 <<
-/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R ] /Contents 14 0 R /MediaBox [ 0 0 612 792 ] /Parent 13 0 R /Resources <<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/EwoudVV/solar-tracker-ss25)
+>> /Border [ 0 0 0 ] /Rect [ 48 291.68 321.168 303.2 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R ] /Contents 15 0 R /MediaBox [ 0 0 612 792 ] /Parent 14 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 
   /Trans <<
@@ -67,56 +74,57 @@ endobj
 >> /Type /Page
 >>
 endobj
-11 0 obj
-<<
-/PageMode /UseNone /Pages 13 0 R /Type /Catalog
->>
-endobj
 12 0 obj
 <<
-/Author (Ewoud) /CreationDate (D:20261014160602-04'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261014160602-04'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (Electronics engineering internship resume) /Title (Ewoud | Electronics & PCB design) /Trapped /False
+/PageMode /UseNone /Pages 14 0 R /Type /Catalog
 >>
 endobj
 13 0 obj
 <<
-/Count 1 /Kids [ 10 0 R ] /Type /Pages
+/Author (Ewoud Van Vooren) /CreationDate (D:20261014165435-04'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261014165435-04'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (Ewoud Van Vooren - Resume) /Trapped /False
 >>
 endobj
 14 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2142
+/Count 1 /Kids [ 11 0 R ] /Type /Pages
+>>
+endobj
+15 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2537
 >>
 stream
-GauHLD/\-!&H88.1"&WnmK="X#35$InreYV"<*e0-frN\0<c8-Fa"iEWB^AoGATZ\Y`:1r7>\k;m*%T`4>X=PTnP_>rYm0ar;\H&D6P#d<a`P*$c)s8_:b/2]3OUsi&M9"`d=$=FRZnR[lpY<_5l114WF1m%/7#N>IPbHE*EPe:Mnj(WD1]/gT63[LYs6[r_Oq*iQq71>-9UOj(>an97(ES/ZlI)!A(/7GV3<.F951T1mC*q=X`2KbQiQPW*nquc>'i?4_iNMXS.V#T%c_1XEM)7p$h6i>(06dSe<2;\1%QG;S[q6og%7o?Sf5AQ<'A!(HVQmHZO[d%93q1SucrabA,l#Zqebth6@r`%ZJ9QEN!DX54"Tj1tS6c'SJ"]RS$[n+bgOoQ3)JcZE]0q"%X?HL@AkL3!GU?MH`W;V%tU1I:VR\#`'Zr-jQZ("PDH7BY%e)V&WQ:0qPEtGUbU&Dnm,#5Qc=::5-Us0HCBP@;2+J.87f<6YdQhIW-8s^_P1Q*5!n[CaHJVb.E([gPe@#[<SF(#1(mLof\V$eZ"ql;]f'e6dA3>]>9814M.T#eFHC6;3a-(+E8\Gbs`3r$iURDFH-'Z(p;P<",h,^AT=7c*T-`S7h-CnqO/YWa;;gi6F5TGQ#tofq`@[)3omhiOFs%'n]b`h42/7Wq<dOPd3)Q@)XVWB6G]r)b-5g;HRK;\n53f."5dK_#ao,WkVb.a)i.(G%r.ZN+Nqiee<Zl/nB+^tkbj*1c"2X@"Or*(1.:Nj4BnS@lG9r*Tr"r]7-B76AHpY,!_j3W";..gfU`=8>qg@d^iG%VPg,RX@p'):OuFYSge_m9<jE`QbWpXk5VNDTK?mEc;URQh-SR.1/s`#lF^dNO;n0B1dK\JYq@0qU:<*e\WD-;@)cb+I:W`f@-CPUL+;@#Gjs@Y'`s%_G3eA(lI&+'V<4K[>CQSCO77uNlAN+)!'pcR51(lNe_K_?k#3=GQ;2^g'S1P*p[K\8t3`lIWlEI87#n8fr.j.lH0W#\-)H(!0J;@Yfb%$;?(j]XG(Q`8"&2-dU];TR`(9dV3^(r$`[-D[2=,UJ?G-L?rd5];_eXeTZC2J1,D^-XIh&TJ`JSYYAW`kN27p$K7[@VJ>VGCVnqZKbn7:jMnLGj</f7bJa@.,^m.56b:V2MSqF_SCZ7[er6/EUG5=NIhfYQ6`8?-UDGaB9u$D\et#5XOOhYRUs/C6VKf`$kYl-K\P^'a#2l_?BC0EsRMUC1tBted]dl7Xm<b@DjFeRNO*rdkVK/K#5JdQ:Skm]id(]kS[f3YW*8_;^#h[N+pesbqfuf%UD08TcA*A7eidNqCTI6j#)]5?LJL)-t[GT085sYPcRSumf4ZYf?1dFY\Q:o=Gg`7Bi=+rg[A9`e7e^-Ke>qRH4NZK\t$W25`&:=(S:6!fWll_(EG?:JT+5N+cTu.IM]k[Vu9Ctf156V3$[E:fmjNTVl!i]$"M#?37FP3@6.UtNWMWsZR=l[@;=!n$a(s9LeX"(c*g!FYV`']&@JNA]e39"X6!.3omRW@j/REpG!'))I)iW(UJMmHY%kCVB@^)#_J.#7*g3%H9KlsG+[mp_-]1#Z"Z8X$O`F#PjG@Ff:D4-;a#X1]TPt1`Q\*.l<S#QD9\QV40WAb7rQ0#OV@I]&bYgPH`%gA][Vc&HA>;mrQ#*\Xl5CoK4Xo-$SK!UHra0eXqT"l%VXba&jk1&s\+dRZVnIVgR\D"OSs7S)qq<lQ_)VPb89H`/aTC!oWJ.39cS;WeAP[Flj'fbLJ$*@:e*Xh3,gDY*l8l$WG2hmt(YW[%VTWZ@0@`Y&M+>pm[odTDijcNEl4dNULWr5pW)UUG_Mi!fm_ZXu]4,R!nf64?T4qKC<s(rj87P+,\==!X(g>(_h(Xc#9$rHoq*]?1)V*m0G$^R6o4P.41q:7;%mEZpnSp[Ze=Ni`]5s]cO2%^ia9EnFLWW%C%[8Ulb+g<7-"b6!P\0%\o4WAbU,J&;39"MK+_Y,$:d:?5EI7^kK"AXBD)#$He=JdG,D?'Z.jcq=pUXIqms&@r^7(+2,1-/]ZeUd**rK%DU[:-]Oh&;E3k`-C#Ck@Zo%XmWG4a>#2$k@5&7bVEc<,m`NZH*D67c10"YNQB(u>0fLZ.T,(9)<M~>endstream
+Gau0D?#SIW(4GYT\A/(Hcb`S]%pSbiAJ<fm4ggJIm%dRQ0=8[Mgea`"U>fdi5CO,3gMPE"RrfSPLhp7hGgAP9SkB:;_-bRe:NN8Z"Wb8d-jXO,90qpb[$]9dn`m;Z_=l0a:J'3Xbo$&)YT"+o%jDF)ED:b!&s-G5_E>Y`C.se#g5teDV@<cRdaiZ<lATU_5rVDM?Mm9NJ(*C!p2,<;mu'-u#)R]e(\7inT@g,q^eSRph=i/k#!_Cn;%VdAlQgm`j)/MVa1A3,@o^LrF^8us.f(eUDf'L+(B9s@pWZV8[E=o!I]Du$B=k1p8sjb7ZsuVNb&;1QUL2;dJ+%;o'^B'k]tj)"$cJ_(#7ee)"tn+BoYUmUTOZR09!aITAa53jL,MZ]M./oR+>.qSZmnII[HV^V8f=hNWb<%r1?/+mB,T$/c#gC&Renr)]Qo`=<TcBo'R%?HGd.kbk8M,%!c*Y0E*ZFY;:5YGP:B5%9jJ#LGXY*LZ5,32;pJNGC[U&HnR]BXc'eM%c@\q^aW@I\!K$`Y(FCl>nQ.D540B#46B5fUlf#rpEcHQt4i%-i4XVPL5PVjL9LY'n=a9O!>LrY%Y4tVf![5;jX#8/N[8IX])1O3")k_,5=#5JUrb:=4**R$"d+p;Gld/qUHN:d:(q#)7Ze>$IAFZ7?V5og-jPo+pP2oc]"HSWN5%VT(E5s/teqYA>kTjeqf,?%Sbm4R\"U]7oN7)Qh)iS]Qp<;/Qps&L)_O"E_Rk6chepG4l:r9?_(esI4.-ouM0FTIZQ+&Rb\"$'mON.2i99,3SV!ujMG3ddlF2,r6%</r?F2">fZ'&.$o2KrBT!%<aaVme5qA;hXhDM9:12BYJ;!T%R1l*@UZW*3o%&EWtL7!IeTop&$7?Zj[2<*K7HDpC>(ej\"5f79-Ri`C6q:XhV4MI8ST@)cN`UDjG@XaEASaJGT&c-o'%qfV$92JY!6TWY3F/fY%3eT*_q49>Mf[?/)6;S-#%a\JIN;`44c\E:Ch$%_C\Fr,aFsr;/ks(6XE9jE`HINXYPT3=.>Fu?3r>HsTEfOo&<I`Pbng,rfPR;]eY-r6\=E8+`,Nn+?8W^`)GR;2q!+q?CPHMS(Fm#?^imtVsJ"j8Q'^?99>1\J&X-hb#f7Hn#^nTmU,D`tJM]acc;Ck[eJ4Zm^!SBiq&5\\\\SNMXO;5Zt*QiGD#eA=/%[<.27i=a$0,I%d[HqS$lb\4.85H-nN2s6.V&pq5=n9Rk[8sm0Bio.m+\"X,qNM>'.r+C9$Ic0g6PMsNYP\^nYL>S.b0\SOY)LLpZ4[8"3QtC]iUc3kLXbfV'm+cJlB@g?K;Qs\MZd*>Sn&@>4#jJ,HDsa=Rn+ns(Y!i5Rdpt-oK9Y\R\gjP9AIBt<n"I`-KYkS'5inSAnSju:/GVBAg#=jr3ZD^ol!=+8Xm`nPm-(1Kg?@n6rBrUNgkY-O-7=Ta2dN@SLDM)k,XXG"DYWhl1C%42[I;A'0NL`Xa"`Qcd0Cr:Bt;:h4iG(=ZB<QdomSBa+7sURWC.D;XPn&BuWR"208+Nn(>VG+OdPB4-c`EZZBDY<QBd<*ptA#k+3m:/%#*+@[;F<3`45sDEg]Ro>N6fdHRBOW:CNGVpj&?Opp;fX.JDK-+"=Sh-EE%jrkGYoHD*F+HB;;gRn)4_;KHpc'aL'.>3e52f-t@E^I<-[@3-rjlc)%a%.L0OfjYgTYJKH:+p5(n)#O\V(."r=%\c>dbP8PX2?CSoNqlc.o>fA5+;8mi["LQfa`neeP/9n7WVb<`\PIq8jp4%($+<<5?5@p^fq$ULi-%)XZu2AoXG'?Tj([gWYO8B@5-_/,uWC9dVdmR\i^6q39^/9T;D[">C!TL]LY%fjHN68Y^B;I7b9P4Ci?d,8+FAB-F)>JZ]]Rf=EP.t,4%bt9=7f[hYFnG3LX5[&&N4>Uft=oVm&V!L!PPpeVWD]Ajh[-02h7>E1-)Ob8-\lDVsV%1^$X/YRG<7@pA]Lm.t_i2,BL_5d+ddXZ"/<at@8X_D=99IE]Pr?fje_g:A0E2`<D@@Clj+rc>>kg/dO1dWYs-X/rhF=5FQFaC'O]C"n?<mQ^hn>s=X`.ZQ,XdYBdFWsi>bFm#hDgI^.c],T/I3I>+N=_@si852]!l1e:BAIB0+nNQ(WgqoS?7MC.HE&)ji%ON%2cTI%DE&_Ca4R>IeoCL.O.7LWK[aE0J0!j@d(<jTYn-j-<Y'O@Zo5HPaV8;hq-pT/E@r-KEk,oUsdHQ+%+,f,CU9lu^QQ,_f8)r80D/ItkgF+B&?W_R]UR)LX';$mnkMsjEWbp@@14U"7%"jnqa*u>UNg)H**m.Sg97&cdbrQDh=)*'hQ-n-D$nLc$OqpaSWf+``M-CZY>@e:K6]cEhhgOd!4FD36)'[,m\!-(KE/*Du:HSK$.u#T:`qF2m+TRXBO8#m1YGDiVMsRDb5/F(U$'<q_CG192Y@KuK[\5aZ]raVTdWl:,=kT""chdS"?$SNg*s=p/=`ZEECjFR,V"o$8"5:*C(fH#%m:]tLLVGss$GH9XRd(;K~>endstream
 endobj
 xref
-0 15
+0 16
 0000000000 65535 f 
 0000000061 00000 n 
 0000000102 00000 n 
 0000000209 00000 n 
 0000000321 00000 n 
-0000000489 00000 n 
-0000000656 00000 n 
-0000000837 00000 n 
-0000001018 00000 n 
-0000001208 00000 n 
-0000001389 00000 n 
-0000001633 00000 n 
-0000001703 00000 n 
-0000002021 00000 n 
-0000002082 00000 n 
+0000000498 00000 n 
+0000000662 00000 n 
+0000000831 00000 n 
+0000001006 00000 n 
+0000001180 00000 n 
+0000001356 00000 n 
+0000001542 00000 n 
+0000001793 00000 n 
+0000001863 00000 n 
+0000002159 00000 n 
+0000002220 00000 n 
 trailer
 <<
 /ID 
-[<37d7ec7f227fd43798918de6721bd75d><37d7ec7f227fd43798918de6721bd75d>]
+[<515dd82c1b6071406163496e3ce3a258><515dd82c1b6071406163496e3ce3a258>]
 % ReportLab generated PDF document -- digest (opensource)
 
-/Info 12 0 R
-/Root 11 0 R
-/Size 15
+/Info 13 0 R
+/Root 12 0 R
+/Size 16
 >>
 startxref
-4316
+4849
 %%EOF

@@ -1213,3 +1213,10 @@ figcaption {
     font-size: 8pt;
   }
 }
+
+.resume-community {
+  padding-left: 15px;
+}
+.resume-community li {
+  margin-bottom: 3px;
+}

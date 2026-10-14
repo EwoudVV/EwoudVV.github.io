@@ -52,8 +52,19 @@ Snapshot: [ce21df9f3471c953ff5188bc8032e9a2f24aad98](https://github.com/EwoudVV/
 
 - Reviewed the public PCB vise repository as another possible hardware project; it remains in design and is not featured here.
 - Education, graduation year, Hack Club membership, Half Life reviewer role, and basic Python/C# level come from the supplied portfolio brief.
-- No contact email was supplied for public use. `src/content.mjs` and `src/resume.json` contain explicit placeholders. Git configuration or unrelated account data is not used as public contact information.
+- The public contact email and expanded resume were approved on October 14, 2026. The Amateur Extra license class was confirmed directly. No home address or telephone number is published.
 - The font is Inter, distributed under the SIL Open Font License. `public/assets/inter-LICENSE.txt` retains the license. The Latin variable WOFF2 is from `@fontsource-variable/inter` 5.3.0.
 - The social preview is text drawn on a solid background, not a generated electronics image.
 
 When a board changes, update its status, source snapshot, and images together. Design checks and host firmware tests do not establish hardware performance.
+
+## Expanded resume
+
+The expanded resume was reviewed and approved October 14, 2026.
+
+- [DrawBot](https://github.com/EwoudVV/drawbot) and its [journal](https://github.com/EwoudVV/drawbot/blob/main/journal.md): built CoreXY machine, motion and pen calibration, 100 mm square, and a recorded 35-minute drawing run. Manual homing remains necessary.
+- [New England Sci-Tech](https://nescitech.org/leadership): volunteer listing and K1EVV callsign. The old General-class description is superseded by direct confirmation of Amateur Extra.
+- [HamXposition committee](https://hamxposition.org/committees/): Youth & Collegiate Activities Committee membership. No chair title, dates, or specific duties were invented.
+- [2024 StratoScience manifest](https://ema.arrl.org/2024/08/11/stratoscience-lab-balloon-launches-new-england-sci-tech-natick-august-14-2024/): IMU recorder and downward-camera credit. Local MPU9250/SD code supports the logging description; no altitude or recovered-data result is claimed.
+- [Solar tracker](https://github.com/EwoudVV/solar-tracker-ss25) and [image-analysis notebooks](https://github.com/EwoudVV/hab_imageanalasis): servo tracking and OpenCV image-matching work.
+- [Unity game](https://ewoudvv.itch.io/3d-worlds-hardest-game), [nnzip on PyPI](https://pypi.org/project/nnzip/), [graphing-calculator OS](https://github.com/EwoudVV/graphing-calculator-os), [RC tank](https://github.com/EwoudVV/rc-tank), and [Tarmo5 modifications](https://github.com/EwoudVV/tarmo5-mods): additional projects. No commercial release, compression ranking, or ownership of the original Tarmo design is claimed.

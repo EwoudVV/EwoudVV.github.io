@@ -1,25 +1,24 @@
-# hosting and DNS
+# Hosting and DNS
 
-The site uses GitHub Pages at https://ewoudvv.github.io. The repository is https://github.com/EwoudVV/EwoudVV.github.io.
+The public site is https://ewoudvv.github.io. The repository is https://github.com/EwoudVV/EwoudVV.github.io.
 
 `main` is built by `.github/workflows/pages.yml`. It checks local links, images, metadata, and the PDF before publishing `dist/`. No install step or private API key is needed.
 
-## DuckDNS
+## Domain settings
 
-The requested hostname is `ewoudvv.duckdns.org`. It has not been changed or added as a GitHub Pages custom domain.
+The GitHub Pages hostname is the chosen public address. HTTPS is enforced and the custom-domain field is empty. The DuckDNS hostname keeps its previous DNS configuration and is not used by this portfolio.
 
-On October 14, 2026, a public DNS query returned an existing A record and no CNAME. DuckDNS's documented API supports IPv4, IPv6, and TXT updates, with no CNAME control. GitHub's supported custom-subdomain setup requires a CNAME pointing directly to `ewoudvv.github.io`.
-
-There is no documented supported DuckDNS configuration for that setup. Pointing one DuckDNS A record at a GitHub Pages address would not follow the documented subdomain configuration, so the site keeps the GitHub Pages address. No DuckDNS account token was requested, retrieved, logged, or saved.
+The earlier claim that DuckDNS necessarily could not work with Pages was too broad. GitHub's DNS checker accepts A records for a hostname with MX records, and DuckDNS provides an MX record automatically. That option was verified against an existing working site on this account, but the portfolio uses the GitHub hostname by choice.
 
 Sources:
 
-- [DuckDNS API specification](https://www.duckdns.org/spec.jsp)
-- [GitHub Pages custom-domain configuration](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+- [DuckDNS specification](https://www.duckdns.org/spec.jsp)
+- [DuckDNS FAQ](https://www.duckdns.org/faqs.jsp)
+- [GitHub Pages DNS checker](https://github.com/github/pages-health-check/blob/master/lib/github-pages-health-check/domain.rb)
 - [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 
-There is nothing to change in DuckDNS for the working fallback. A later custom hostname would need a DNS provider that supports the records GitHub requires. Keep the working URL until DNS, the HTTP response, and the HTTPS certificate have all been verified.
+## Updating the resume
 
-## updating the resume
+Edit `src/resume.json`, regenerate `public/ewoud-resume.pdf` with `python3 scripts/resume.py`, inspect the one-page result, then build and push. The HTML resume and PDF use the same source content. Keep the public contact email in `src/content.mjs` consistent.
 
-Add the public email address to `src/content.mjs` and `src/resume.json` when one is chosen. Regenerate `public/ewoud-resume.pdf`, inspect the one-page result, then build and push. The current resume provides GitHub and portfolio links.
+Local review drafts and research stay in the ignored `drafts/` and `work/` directories. They are not included in the site build or repository.

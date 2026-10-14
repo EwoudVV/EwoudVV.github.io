@@ -3,11 +3,10 @@ export const site = {
   url: "https://ewoudvv.github.io",
   github: "https://github.com/EwoudVV",
   updated: "October 14, 2026",
-  contactEmail: null,
+  contactEmail: "ewoud.vanvooren@gmail.com",
   description:
     "Electronics and PCB projects by Ewoud, a high school student in Massachusetts. Custom laptop hardware, microcontroller boards, battery circuits, and motor control.",
 };
-// TODO: Set contactEmail above when a public email address is chosen.
 
 export const projects = [
   {
